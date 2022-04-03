@@ -88,7 +88,7 @@
         .btnStack {
         font-family: sans-serif;
         background-color: #d51e25;
-        color: white;
+        color: black;
         width: 50%;
         text-decoration: none;
         display: inline-block;
@@ -161,10 +161,12 @@
     <section id="hero">
         <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col d-flex justify-content-center">
             <h1>Agape Automation</h1>
             <p>Agape Automation is focused on creating innovative products to automate restaurant tasks that are dull, dirty or dangerous.</p>
             <a href="{{url_for('register')}}"class="btnStack">Register</a>
+            <p> </p>
+            <a href="{{url_for('login')}}"class="btnStack">Login</a>
             </div>
             <div class="col img-col">
             <img src="https://firebasestorage.googleapis.com/v0/b/smart-saucer-8f12f.appspot.com/o/AAFlaskAssets%2FUntitled%20design-57.png?alt=media&token=3b74d331-5de5-41fd-a917-a444439d7ead" class="img-fluid" alt="Software Development">
